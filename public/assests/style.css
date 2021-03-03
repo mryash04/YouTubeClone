@@ -165,3 +165,12 @@ body{
     border-radius:50%;
     background-color:#AAAAAA;
 }
+
+@media(max-width:780px){
+    .home-info{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+}

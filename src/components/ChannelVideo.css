@@ -1,0 +1,38 @@
+.channel-video{
+    display:flex;
+    max-width:700px;
+    margin-bottom:30px;
+}
+
+.channel-video img{
+    object-fit:contain;
+}
+
+.video-info{
+    display:flex;
+    flex-direction:column;
+    margin-left:10px;
+}
+
+.video-info p{
+    color:#606060;
+    font-size:small !important;
+    margin-bottom:10px;
+}
+
+.video-info h4{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    font-weight:bold;
+}
+
+.video-subscribers{
+    background-color:#d3d3d3;
+    padding:2px;
+}
+
+.video-totalSubscribers{
+    font-weight:bold;
+    color:#549dd3;
+}

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import Home from "./Home";
 import videoContentImage from "../Images/video-content-images.webp";
 import imageThree from "../Images/image3.webp";
@@ -8,8 +8,12 @@ import imageTwo from "../Images/image2.webp";
 import imageFour from "../Images/image4.jpg";
 import imageFive from "../Images/images5.jpg";
 import imageSix from "../Images/images6.jpg";
+import Data from "./Data";
 
 const HomeInfo = () =>{
+
+    const [data, setData] = useState(Data);
+
     return(
     <div className="home-container">
         <div className="home-info">
